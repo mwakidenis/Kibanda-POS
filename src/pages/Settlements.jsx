@@ -194,12 +194,14 @@ const SettlementSummary = () => {
                     </Space>
                 </Col>
                 <Col xs={24} md={12}>
-                    <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', minWidth: 0, overflow: 'visible' }}>
-                        <Badge count="Automation Ready" color="#25D366" style={{ whiteSpace: 'nowrap', overflow: 'visible' }}>
-                            <Tag icon={<ClockCircleOutlined />} color="processing" style={{ padding: '4px 12px', borderRadius: 8 }}>
-                                Last Sync: {dayjs().format('HH:mm A')}
-                            </Tag>
-                        </Badge>
+                    <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', minWidth: 0, overflow: 'visible', maxWidth: '100%' }}>
+                        <span style={{ display: 'flex', alignItems: 'center', background: '#fff', borderRadius: 8, boxShadow: '0 1px 4px rgba(0,0,0,0.08)', padding: '0 8px', maxWidth: '100%' }}>
+                            <Badge count={<span style={{ fontWeight: 600, fontSize: 14 }}>Automation Ready</span>} color="#25D366" style={{ whiteSpace: 'nowrap', overflow: 'visible', marginRight: 8 }}>
+                                <Tag icon={<ClockCircleOutlined />} color="processing" style={{ padding: '4px 12px', borderRadius: 8, marginLeft: 0 }}>
+                                    Last Sync: {dayjs().format('HH:mm A')}
+                                </Tag>
+                            </Badge>
+                        </span>
                     </div>
                 </Col>
             </Row>
