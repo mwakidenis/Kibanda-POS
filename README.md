@@ -28,7 +28,7 @@ Easily add, edit, or remove mess members. The entire system's calculations (shar
 
 
 ### ⚙️ Personalized Settings
-Switch between **Light** and **Dark** modes, change your preferred currency (৳, ₹, $), and manage your localization settings.
+Switch between **Light** and **Dark** modes, change your preferred currency , and manage your localization settings.
 
 
 
