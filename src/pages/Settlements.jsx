@@ -181,6 +181,7 @@ const SettlementSummary = () => {
 
     return (
                 <Col xs={24} md={12}>
+                    {/* Badge layout for Automation Ready and Last Sync */}
                     <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', minWidth: 0, maxWidth: '100vw', overflow: 'visible', paddingRight: 8 }}>
                         <span style={{ display: 'flex', alignItems: 'center', background: '#fff', borderRadius: 8, boxShadow: '0 1px 4px rgba(0,0,0,0.08)', padding: '0 12px', minWidth: 180, maxWidth: '100%', overflow: 'visible', flexWrap: 'wrap' }}>
                             <Badge count={<span style={{ fontWeight: 600, fontSize: 14, whiteSpace: 'normal' }}>Automation Ready</span>} color="#25D366" style={{ marginRight: 8, overflow: 'visible', whiteSpace: 'normal' }}>
