@@ -181,10 +181,10 @@ const SettlementSummary = () => {
 
     return (
                 <Col xs={24} md={12}>
-                    <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', minWidth: 0, overflow: 'visible', maxWidth: '100%' }}>
-                        <span style={{ display: 'flex', alignItems: 'center', background: '#fff', borderRadius: 8, boxShadow: '0 1px 4px rgba(0,0,0,0.08)', padding: '0 8px', maxWidth: '100%' }}>
-                            <Badge count={<span style={{ fontWeight: 600, fontSize: 14 }}>Automation Ready</span>} color="#25D366" style={{ whiteSpace: 'nowrap', overflow: 'visible', marginRight: 8 }}>
-                                <Tag icon={<ClockCircleOutlined />} color="processing" style={{ padding: '4px 12px', borderRadius: 8, marginLeft: 0 }}>
+                    <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', minWidth: 0, maxWidth: '100vw', overflow: 'visible', paddingRight: 8 }}>
+                        <span style={{ display: 'flex', alignItems: 'center', background: '#fff', borderRadius: 8, boxShadow: '0 1px 4px rgba(0,0,0,0.08)', padding: '0 12px', minWidth: 180, maxWidth: '100%', overflow: 'visible', flexWrap: 'wrap' }}>
+                            <Badge count={<span style={{ fontWeight: 600, fontSize: 14, whiteSpace: 'normal' }}>Automation Ready</span>} color="#25D366" style={{ marginRight: 8, overflow: 'visible', whiteSpace: 'normal' }}>
+                                <Tag icon={<ClockCircleOutlined />} color="processing" style={{ padding: '4px 12px', borderRadius: 8, marginLeft: 0, whiteSpace: 'normal' }}>
                                     Last Sync: {dayjs().format('HH:mm A')}
                                 </Tag>
                             </Badge>
