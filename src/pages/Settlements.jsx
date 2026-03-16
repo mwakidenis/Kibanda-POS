@@ -180,8 +180,20 @@ const SettlementSummary = () => {
     ];
 
     return (
+        <div className="fade-in-up">
+            <Row gutter={[24, 24]} align="middle" style={{ marginBottom: 24 }}>
                 <Col xs={24} md={12}>
-                    {/* Fix: Badge always fully visible, no overflow */}
+                    <Space size="middle">
+                        <div style={{ background: '#25D366', padding: 10, borderRadius: 12, display: 'flex' }}>
+                            <WhatsAppOutlined style={{ color: 'white', fontSize: 20 }} />
+                        </div>
+                        <div>
+                            <Title level={3} style={{ margin: 0 }}>Settlement Summary</Title>
+                            <Text type="secondary">Personalized WhatsApp updates for all members</Text>
+                        </div>
+                    </Space>
+                </Col>
+                <Col xs={24} md={12}>
                     <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', gap: 12, paddingRight: 8 }}>
                         <Badge
                             count={<span style={{ fontWeight: 600, fontSize: 14 }}>Automation Ready</span>}
