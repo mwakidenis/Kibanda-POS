@@ -4,7 +4,7 @@
 [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
 [![Ant-Design](https://img.shields.io/badge/-Ant_Design-%230170FE?style=for-the-badge&logo=ant-design&logoColor=white)](https://ant.design/)
 
-Welcome to **KibandaPOS**, a premium and advanced utility designed for students and professionals sharing a mess. It simplifies the complex task of tracking daily বাজার (grocery) expenses and ensures a fair settlement between all members.
+Welcome to **KibandaPOS**, a premium and advanced utility designed for students and professionals sharing a mess. It simplifies the complex task of tracking daily (grocery) expenses and ensures a fair settlement between all members.
 
 ---
 
