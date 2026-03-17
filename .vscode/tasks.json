@@ -1,0 +1,16 @@
+{
+  // Example task: Run KibandaPOS
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run KibandaPOS",
+      "type": "shell",
+      "command": "npm start",
+      "group": "build",
+      "presentation": {
+        "reveal": "always"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
