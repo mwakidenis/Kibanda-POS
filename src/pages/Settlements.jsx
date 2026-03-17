@@ -194,7 +194,7 @@ const SettlementSummary = () => {
                     </Space>
                 </Col>
                 <Col xs={24} md={12}>
-                    <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', gap: 12, paddingRight: 8 }}>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 8, paddingRight: 8 }}>
                         <Badge
                             count={<span style={{ fontWeight: 600, fontSize: 14 }}>Automation Ready</span>}
                             color="#25D366"
