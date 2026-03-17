@@ -1,0 +1,11 @@
+{
+  // Project-specific settings for Kibanda-POS
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "javascript.preferences.quoteStyle": "single",
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
