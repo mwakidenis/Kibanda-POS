@@ -66,8 +66,21 @@ No need to open a terminal! We have built a dedicated runner for you:
 
 ---
 
-### 👨‍💻 Developed By
-**mwakidenis**
+## Projects Admin ⚡
+
+<table align="center">
+  <tr>
+    <td align="center">
+        <img src="https://res.cloudinary.com/dqv8dlj2s/image/upload/v1772276752/IMG_20251220_111730_cqlgfo.jpg" width="750" height="250" />
+      </a>
+      <h4>mwakidenis</h4>
+    </td>
+  </tr>
+</table>
+
+<div><h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Red%20Heart.png" width="35" height="35"> Contributors</h2></div>
+
+I extend my heartfelt gratitude for any invaluable contribution to my projects! Your efforts play a significant role in improving and elevating these repositories to greater heights.
 
 | Platform | Link |
 | :--- | :--- |
