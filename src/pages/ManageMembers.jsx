@@ -1,5 +1,6 @@
 /** Software Version: 2.2 | Dev: mwakidenis **/
 import React, { useState, useEffect, useContext } from 'react';
+import { Navigate } from 'react-router-dom';
 import { Table, Button, Card, Modal, Form, Input, Space, Typography, notification, Popconfirm, Avatar } from 'antd';
 import { UserAddOutlined, EditOutlined, DeleteOutlined, UserOutlined, TeamOutlined, WhatsAppOutlined } from '@ant-design/icons';
 import { AppContext } from '../context/AppContext';
@@ -7,7 +8,11 @@ import { AppContext } from '../context/AppContext';
 const { Title, Text } = Typography;
 
 const ManageMembers = () => {
-    const { members, addMember, updateMember, deleteMember } = useContext(AppContext);
+    const { members, addMember, updateMember, deleteMember, isAuthenticated } = useContext(AppContext);
+
+    if (!isAuthenticated) {
+        return <Navigate to="/login" replace />;
+    }
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [editingMember, setEditingMember] = useState(null);
     const [form] = Form.useForm();
