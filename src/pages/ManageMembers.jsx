@@ -9,13 +9,13 @@ const { Title, Text } = Typography;
 
 const ManageMembers = () => {
     const { members, addMember, updateMember, deleteMember, isAuthenticated } = useContext(AppContext);
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [editingMember, setEditingMember] = useState(null);
+    const [form] = Form.useForm();
 
     if (!isAuthenticated) {
         return <Navigate to="/login" replace />;
     }
-    const [isModalOpen, setIsModalOpen] = useState(false);
-    const [editingMember, setEditingMember] = useState(null);
-    const [form] = Form.useForm();
 
     const handleAdd = () => {
         setEditingMember(null);
